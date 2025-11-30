@@ -1,0 +1,15 @@
+✅ Data loaded and split successfully.
+   Train shape: (120, 5), Test shape: (30, 5)
+🔄 Training model...
+✅ Model training complete.
+📊 Overall Accuracy: 1.00
+
+--- ⚖️ Fairlearn Analysis (Sensitive Attribute: Location) ---
+          accuracy  selection_rate  count
+location                                 
+0              1.0        0.250000   12.0
+1              1.0        0.333333   18.0
+
+--- 🔍 Generating SHAP Explanations ---
+   Plotting Summary Plot for Class: Virginica...
+✅ SHAP plot saved as 'shap_virginica_summary.png'
