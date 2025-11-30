@@ -1,23 +1,14 @@
-# 🧪 Week 8: MLOps - Data Poisoning Experiments
+# ⚖️ Week 9: MLOps - Fairness & Explainability
 
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![MLflow](https://img.shields.io/badge/MLflow-Tracking-orange.svg)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-yellow.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Fairlearn](https://img.shields.io/badge/Fairlearn-Fairness-orange.svg)
+![SHAP](https://img.shields.io/badge/SHAP-Explainability-yellow.svg)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-green.svg)
+![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
 
-*Exploring the impact of data poisoning on machine learning model performance*
-
-</div>
-
----
-
-## ⚖️ Week 9: MLOps - Fairness & Explainability
-
-<div align="center">
-
-**Incorporating sensitive attribute analysis and model explainability into the IRIS dataset classification pipeline**
+*Incorporating sensitive attribute analysis and model explainability into the IRIS dataset classification pipeline*
 
 </div>
 
@@ -152,6 +143,7 @@ This project includes a **GitHub Actions workflow** that:
 - 🔍 **Explainability builds trust**: SHAP helps understand what drives predictions
 - 🚀 **Automation accelerates**: CI/CD ensures reproducibility and consistency
 - 🎯 **MLOps best practices**: Combining fairness and explainability creates more responsible AI
+
 
 ---
 
