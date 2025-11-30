@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   build-and-run:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
     # 1. Check out the code
@@ -25,11 +25,11 @@ jobs:
       with:
         python-version: "3.9"
 
-    # 3. Install dependencies
+    # 3. Install dependencies (using uv)
     - name: Install Dependencies
       run: |
-        python -m pip install --upgrade pip
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        pip install uv
+        uv pip install --system .
 
     # 4. Run the Pipeline
     - name: Run MLOps Pipeline
